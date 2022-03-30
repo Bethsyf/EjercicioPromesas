@@ -41,8 +41,15 @@ header img{
     background-color: var(--primary-color);
 } 
 
+main{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
 .pokemon{
-    width: 300px;
+    width: 200px;
     margin: 20px;
     background-color: var(--secundary-color);
     box-shadow: 0 6px 6px var(--tertiary-color);
