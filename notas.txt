@@ -7,13 +7,13 @@ function pokemon (id){
             .then(data => showPj(data))
 
 }
-/* 
+
 function pokemon (id){
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
         .then(response => response.json())
             .then(data => showPjA(data))
 
-} */
+}
 
 function pokemons (){
     for(let i = 1; i < 20; i++){
@@ -23,13 +23,13 @@ function pokemons (){
 pokemons()
 
 
-/* let ability = document.querySelector('.hability')
+let ability = document.querySelector('.hability')
 
 function showPjA (data) {
     let ability =data.abilities[0].ability.name
     console.log(ability)
     ability.innerHTML += ability;
- } */
+ }
 
 function showPj (data){
     console.log(data)
@@ -41,7 +41,7 @@ function showPj (data){
  <img src="${imagen}" alt="">
  <div class="pokemon-info">
      <h3>${nombre}</h3>
-     <span class="hability">${id}</span>
+     <span class="hability">hola</span>
  </div>
  <div class="description">
      <h3>Description</h3>
@@ -50,11 +50,3 @@ function showPj (data){
  </div>
  `
 }
-
-
-
-
-
-
-
-
